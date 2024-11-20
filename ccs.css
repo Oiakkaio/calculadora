@@ -152,26 +152,7 @@ footer {
 }
 
 
-.voltar {
-    position: fixed; /* Garante que o botão fique fixo na posição definida */
-    top: 10px;       /* Distância de 10px do topo da janela */
-    left: 10px;      /* Distância de 10px da borda esquerda da janela */
-    background-color: #4caf4f00;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
-}
 
-
-        
-
-        .voltar:hover {
-            background-color:  #4caf4f00;;
-        }
 
 
 /* Animações */
