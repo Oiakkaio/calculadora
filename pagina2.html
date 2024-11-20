@@ -78,6 +78,32 @@
             bottom: 0;
             width: 100%;
         }
+
+
+ 
+            button {
+    position: fixed; /* Garante que o botão fique fixo na posição definida */
+    top: 10px;       /* Distância de 10px do topo da janela */
+    left: 10px;      /* Distância de 10px da borda esquerda da janela */
+    background-color: #4caf4f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+
+        
+
+        button:hover {
+            background-color:  #4caf4f00;;
+        }
+
+
+        
     </style>
 </head>
 
@@ -86,6 +112,10 @@
     <header>
         <h1>Calculadora de Carbono: O Que É e Como Pode Ajudar na Redução das Suas Emissões
         </h1>
+         <button onclick="location.href='index.html'">
+            <img src="images/93634.png" alt="Voltar" style="width: 20px; height: 20px;">
+
+        </button>
     </header>
     <main>
 
