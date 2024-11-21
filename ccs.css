@@ -152,7 +152,24 @@ footer {
 }
 
 
+@media screen and (max-width: 1020px) {
+		.drop-menu{
+			flex-direction: column;
+		}
+		
+	.nav, .drop-menu {
+		display:none;
+	}
 
+	.titulo h1{
+		font-size: 30px
+	}
+
+	.imagem{
+		width: 100%;
+	}
+}
+  
 
 
 /* Animações */
