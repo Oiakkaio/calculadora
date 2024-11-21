@@ -153,23 +153,25 @@ footer {
 
 
 @media screen and (max-width: 1020px) {
-		.drop-menu{
-			flex-direction: column;
-		}
-		
-	.nav, .drop-menu {
-		display:none;
+	.drop-menu {
+		flex-direction: column;
+		display: block; /* Mostra o menu */
 	}
 
-	.titulo h1{
-		font-size: 30px
+	.nav {
+		display: flex; 
+		flex-direction: column; 
+		background-color: #fff; 
 	}
 
-	.imagem{
-		width: 100%;
+	.titulo h1 {
+		font-size: 30px;
+	}
+
+	.imagem {
+		width: 100%;
 	}
 }
-  
 
 
 /* Animações */
