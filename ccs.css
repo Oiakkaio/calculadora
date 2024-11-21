@@ -161,7 +161,7 @@ footer {
 	.nav {
 		display: flex; 
 		flex-direction: column; 
-		 
+		 background-color: #034d09;
 	}
 
 	.titulo h1 {
